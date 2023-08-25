@@ -11,6 +11,11 @@ body
     white-space: normal;
 }
 
+header div
+{
+    display: flex;
+    justify-content: center;
+}
 header h1
 {
     background-color: rgb(34, 32, 46);
@@ -25,14 +30,14 @@ nav
     background-color: grey;
     text-align: center;
 }
-nav ul
+nav div
 {
     font-size: 20px;
     background-color: rgb(62, 85, 119);
     padding: 20px;
     margin: 0px;
 }
-nav ul a
+nav div a
 {
     color:aliceblue;
     font-size: 150%;
@@ -43,7 +48,7 @@ nav ul a
     margin: 2px;
 }
 
-.nintendo ul a
+.nintendo a
 {
     background-color: darkred;
     font-size: 30px;
@@ -54,7 +59,7 @@ nav ul a
     margin: 2px;
 }
 
-.xbox ul a
+.xbox a
 {
     background-color: rgb(8, 70, 36);
     font-size: 30px;
@@ -65,7 +70,7 @@ nav ul a
     margin: 2px;
 }
 
-.playstation ul a
+.playstation a
 {
     background-color: rgb(9, 0, 139);
     font-size: 30px;
@@ -109,6 +114,27 @@ aside h3
     font-size: 25px;
 }
 
+main div
+{
+    display: flex;
+    justify-content: center;
+}
+
+main div table
+{
+    border: 2px solid white;
+}
+
+main div table thead tr th
+{
+    border: 2px solid white;
+}
+
+main div table tbody tr td
+{
+    border: 2px solid white;
+}
+
 .videocontent
 {
     max-height: 450px;
@@ -130,12 +156,12 @@ footer
     height: 70px;
 }
 
-footer ul
+footer div
 {
     text-align: center;
 }
 
-footer ul a
+footer div a
 { 
     color: aliceblue;
 }
